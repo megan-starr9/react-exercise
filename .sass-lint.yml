@@ -1,0 +1,6 @@
+options:
+  merge-default-rules: true
+files:
+  include: '**/*.scss'
+  ignore:
+    - node_modules/**

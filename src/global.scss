@@ -1,0 +1,28 @@
+// Images
+$icon-sprite: '../talent-icons-sprite.png';
+$background: '../talent-calc-bg.png';
+
+// Colors
+$darkest-grey: #070a0b;
+$dark-grey: #14171b;
+$med-grey: #4e4e4e;
+$light-grey: #666666;
+$white: #ffffff;
+$accent-blue: #6eaeee;
+
+// Fonts
+$font-family: 'Open Sans', sans-serif;
+$heading-size: 30px;
+$subheading-size: 21px;
+$body-size: 14px;
+
+// Import component styles (this app is small)
+@import 'App/app';
+@import 'Counter/counter';
+@import 'Path/path';
+@import 'Stat/stat';
+@import 'Stat/icons';
+
+body {
+  background-color: $darkest-grey;
+}

@@ -1,0 +1,9 @@
+.stat {
+  border: 5px solid $light-grey;
+  cursor: pointer;
+
+  &.active {
+    border-color: $accent-blue;
+    box-shadow: 0 0 5px $light-grey;
+  }
+}

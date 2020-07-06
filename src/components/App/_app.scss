@@ -1,0 +1,55 @@
+.main {
+  background: no-repeat url($background) $darkest-grey;
+  background-size: cover;
+  border: $dark-grey 1px solid;
+  color: $white;
+  font-family: $font-family;
+  font-size: $body-size;
+  margin: 10px;
+  padding: 20px;
+}
+
+.header {
+  background-color: adjust-color($med-grey, $alpha: -0.7);
+  box-sizing: border-box;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  h1 {
+    font-size: $heading-size;
+    font-weight: normal;
+  }
+}
+
+.content {
+  align-items: flex-start;
+  display: flex;
+  padding: 50px 0;
+
+  .trees {
+    flex-grow: 1;
+  }
+
+  .counter {
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+
+    .trees {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      min-height: 450px;
+    }
+
+    .counter {
+      margin-bottom: 0;
+    }
+  }
+}

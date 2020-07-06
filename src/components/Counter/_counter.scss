@@ -1,0 +1,15 @@
+.counter {
+  background-color: adjust-color($darkest-grey, $alpha: -0.7);
+  border: 1px solid adjust-color($med-grey, $alpha: -0.7);
+  padding: 20px;
+  text-align: center;
+
+  .amount, .description {
+    display: block;
+    font-size: $subheading-size;
+  }
+
+  .description {
+    color: adjust-color($accent-blue, $alpha: -0.7);
+  }
+}
